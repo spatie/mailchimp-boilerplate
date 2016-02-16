@@ -5,7 +5,15 @@ This email blueprint is adapated from [MailChimp](https://github.com/mailchimp/e
 It is used as a starting point for MailChimp templates at [spatie.be](https://spatie.be).
 
 ## Usage
-Download as .zip and go.
+
+- Download as .zip to modify.
+- Make a .zip with all assets to upload to Mailchimp
+
+### Outlook 2013
+
+- Caution with importing custom webfonts in Outlook 2013: they tend to break the font stack. Include `<!--[if mso 15]>` conditional styles with `!important` to avoid Times New Roman / serif body text.
+- Use images with the exact size. Outlook 2013 doesn't handle the `max-width` styles.
+
 
 ## Changes
 
