@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width"/>
     <title>*|MC:SUBJECT|*</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
 
     <style type="text/css">
 
@@ -85,7 +85,7 @@
 
         /*////// FRAMEWORK STYLES //////*/
         .flexibleContainerCell {
-            padding-top: 20px;
+            padding-top: 40px;
             padding-right: 20px;
             padding-left: 20px;
         }
@@ -110,12 +110,11 @@
 
         /*////// GENERAL STYLES //////*/
         body, #bodyTable {
-            background-color: #ecf4f9;
+            background-color: #FFFFFF;
         }
 
         #bodyCell {
             padding-top: 40px;
-            padding-bottom: 40px;
         }
 
         #emailBody {
@@ -124,9 +123,6 @@
             border-collapse: separate;
             border-radius: 5px;
             overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -136,22 +132,22 @@
         }
 
         .textContent, .textContentLast {
-            color: #404040;
+            color: #1a1e25;
             font-size: 16px;
-            font-weight: 300;
-            line-height: 150%;
+            font-weight: 400;
+            line-height: 145%;
             text-align: left;
             padding-bottom: 20px;
         }
 
         .textContent a, .textContentLast a {
-            color: #007698;
+            color: #007593;
             text-decoration: underline;
         }
 
         .headerCell, .footerCell {
             font-size: 11px;
-            color: #a2bed4;
+            color: #000000;
         }
 
         .headerCell {
@@ -164,28 +160,28 @@
 
         .headerCell a, .footerCell a {
             font-size: 11px;
-            color: #95c3e7;
+            color: #000000;
         }
 
         .nestedContainer {
-            background-color: #f0f0f0;
+            background-color: #ededf5;
             border-radius: 3px;
         }
 
         .nestedContainer h1, .nestedContainer h2, .nestedContainer h3 {
-            color: #cccccc;
+            color: #000000;
         }
 
         .nestedContainer .textContent, .nestedContainer .textContentLast {
-            color: #666666;
+            color: #000000;
         }
 
         .nestedContainer .emailButton {
-            background-color: #999999;
+            background-color: #000000;
         }
 
         .emailButton {
-            background-color: #007698;
+            background-color: #007593;
             border-collapse: separate;
             border-radius: 5px;
         }
@@ -210,18 +206,19 @@
         }
 
         .emailCalendarMonth {
-            background-color: #ecf4f9;
-            color: #007698;
-            font-size: 16px;
+            background-color: #ededf5;
+            color: #000000;
+            font-size: 12px;
             font-weight: bold;
             padding-top: 10px;
             padding-bottom: 10px;
             text-align: center;
+            text-transform: uppercase;
         }
 
         .emailCalendarDay {
-            color: #007698;
-            font-size: 60px;
+            color: #000000;
+            font-size: 64px;
             font-weight: 700;
             line-height: 100%;
             padding-top: 20px;
@@ -230,7 +227,7 @@
         }
 
         .logoCell {
-            padding: 40px 0;
+            padding: 80px 0;
         }
 
         /*////// EDITOR STYLES //////*/
@@ -238,10 +235,10 @@
         * @style Kop1
         */
         h1 {
-            font-weight: 300;
-            font-size: 28px;
-            color: #105163;
-            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 48px;
+            color: #000000;
+            margin-bottom: 30px;
         }
 
         /**
@@ -249,8 +246,8 @@
         */
         h2 {
             font-weight: 700;
-            font-size: 18px;
-            color: #105163;
+            font-size: 21px;
+            color: #000000;
         }
 
         /**
@@ -259,7 +256,7 @@
         h3 {
             font-weight: 700;
             font-size: 16px;
-            color: #105163;
+            color: #000000;
             text-transform: uppercase;
         }
 
@@ -378,7 +375,7 @@
         <tr>
             <td align="center" class=headerCell>
                 *|IFNOT:ARCHIVE_PAGE|*
-                <a href="*|ARCHIVE|*" target="_blank">Bekijk e-mail in browser</a>
+                <a href="*|ARCHIVE|*" target="_blank">View e-mail in browser</a>
                 *|END:IF|*
             </td>
         </tr>
@@ -484,7 +481,7 @@
                                                            width="260" class="flexibleContainer">
                                                         <tr>
                                                             <td mc:edit="module-text" valign="top" class="textContent">
-                                                                <h2>Links</h2>
+                                                                <h2>Left</h2>
                                                                 <br/>Vestibulum vitae metus sed purus elementum
                                                                 malesuada. Aliquam feugiat metus ut orci. Etiam
                                                                 scelerisque lacus eu tellus. Praesent neque est,
@@ -502,7 +499,7 @@
                                                         <tr>
                                                             <td mc:edit="module-text-2" valign="top"
                                                                 class="textContentLast">
-                                                                <h2>Rechts</h2>
+                                                                <h2>Right</h2>
                                                                 <br/>Vestibulum vitae metus sed purus elementum
                                                                 malesuada. Aliquam feugiat metus ut orci. Etiam
                                                                 scelerisque lacus eu tellus. Praesent neque est,
@@ -650,7 +647,7 @@
                                                         <tr>
                                                             <td mc:edit="module-text" mc:hideable valign="top"
                                                                 class="textContent">
-                                                                <h3>Links</h3>
+                                                                <h3>Left</h3>
                                                                 <br/>Vestibulum vitae metus sed purus elementum
                                                                 malesuada. Aliquam feugiat metus ut orci. Etiam
                                                                 scelerisque lacus eu tellus. Praesent neque est,
@@ -675,7 +672,7 @@
                                                         <tr>
                                                             <td mc:edit="module-text-2" mc:hideable valign="top"
                                                                 class="textContent">
-                                                                <h3>Rechts</h3>
+                                                                <h3>Right</h3>
                                                                 <br/>Vestibulum vitae metus sed purus elementum
                                                                 malesuada. Aliquam feugiat metus ut orci. Etiam
                                                                 scelerisque lacus eu tellus. Praesent neque est,
@@ -732,7 +729,7 @@
                                                            width="340" class="flexibleContainer">
                                                         <tr>
                                                             <td mc:edit="module-text" valign="top" class="textContent">
-                                                                <h3>Rechts</h3>
+                                                                <h3>Right</h3>
                                                                 <br/>Vestibulum vitae metus sed purus elementum
                                                                 malesuada. Aliquam feugiat metus ut orci. Etiam
                                                                 scelerisque lacus eu tellus. Praesent neque est,
@@ -795,7 +792,7 @@
                                                            width="340" class="flexibleContainer">
                                                         <tr>
                                                             <td mc:edit="module-text" valign="top" class="textContent">
-                                                                <h3>Links</h3>
+                                                                <h3>Left</h3>
                                                                 <br/>Vestibulum vitae metus sed purus elementum
                                                                 malesuada. Aliquam feugiat metus ut orci. Etiam
                                                                 scelerisque lacus eu tellus. Praesent neque est,
@@ -844,7 +841,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h1>Titel</h1>
+                                                                            <h1>Title</h1>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -898,7 +895,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Links</h3>
+                                                                            <h3>Left</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -918,7 +915,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text-2" valign="top"
                                                                             class="textContentLast">
-                                                                            <h3>Rechts</h3>
+                                                                            <h3>Right</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1047,7 +1044,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Titel</h3>
+                                                                            <h3>Title</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1109,7 +1106,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Links</h3>
+                                                                            <h3>Left</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1137,7 +1134,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text-2" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Rechts</h3>
+                                                                            <h3>Right</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1209,7 +1206,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Rechts</h3>
+                                                                            <h3>Right</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1280,7 +1277,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Links</h3>
+                                                                            <h3>Left</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1377,7 +1374,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Rechts</h3>
+                                                                            <h3>Right</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1474,7 +1471,7 @@
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
                                                                             class="textContent">
-                                                                            <h3>Links</h3>
+                                                                            <h3>Left</h3>
                                                                             <br/>Vestibulum vitae metus sed purus
                                                                             elementum malesuada. Aliquam feugiat metus
                                                                             ut orci. Etiam scelerisque lacus eu tellus.
@@ -1506,9 +1503,9 @@
                     <!-- LOGOS // -->
                     <tr>
                         <td align=center class=logoCell>
-                            <a href="https://facebook.com"><img src="facebook.png" width="50" height="50"
+                            <a href="https://facebook.com"><img src="facebook.png" width="40" height="40"
                                                                 border="0"></a>
-                            <a href="https://twitter.com"><img src="twitter.png" width="50" height="50" border="0"></a>
+                            <a href="https://twitter.com"><img src="twitter.png" width="40" height="40" border="0"></a>
                         </td>
                     </tr>
                     <!-- // LOGOS -->
@@ -1529,8 +1526,7 @@
                 *|HTML:LIST_ADDRESS_HTML|*
                 *|END:IF|*<br>
                 <br>
-                <a href="*|UNSUB|*">Schrijf je uit</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">Update je
-                gegevens</a>&nbsp;<br>
+                <a href="*|UNSUB|*">Unsubscribe</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">Update preferences</a>&nbsp;<br>
                 <br>
                 *|IF:REWARDS|*
                 *|HTML:REWARDS|*
