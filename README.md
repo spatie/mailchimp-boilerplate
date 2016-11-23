@@ -16,7 +16,7 @@ Modules are:
 - All the above with inset & background
 - Calendar + text (right or left aligned)
 
-Check this (preview)[src/preview.png] with all modules.
+Check this [preview][src/preview.png] with all modules.
 
 The boilerplate is used as a starting point for MailChimp templates at [spatie.be](https://spatie.be).
 
