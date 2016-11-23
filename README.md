@@ -16,9 +16,7 @@ Modules are:
 - All the above with inset & background
 - Calendar + text (right or left aligned)
 
-<div style="max-height: 500px; overflow-y: scroll;border: solid1px #ccc">
-    <img src="src/preview.png" alt="boilerplate preview">
-</div>
+<img src="src/preview.png" alt="boilerplate preview">
 
 The boilerplate is used as a starting point for MailChimp templates at [spatie.be](https://spatie.be).
 
