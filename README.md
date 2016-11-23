@@ -5,7 +5,7 @@ This MailChimp HTML email boilerplate contains useful repeatable modules with `m
 
 Imported as a MailChimp Template it gives authors the opportunity to create, duplicate and rearrange different sections in a newsletter. 
 
-Check this [preview](src/preview.png) with all modules.
+Check this [sized screenshot](src/preview.png) with all modules.
 
 Modules included:
 
