@@ -3,24 +3,24 @@
 
 This MailChimp HTML email boilerplate contains useful repeatable modules with `mc:repeatable` and `mc:edit` attributes. 
 
-Imported as a MailChimp Template, this gives authors the opportunity to create, duplicate and rearrange different sections in a newsletter. 
+Imported as a MailChimp Template it gives authors the opportunity to create, duplicate and rearrange different sections in a newsletter. 
 
 Modules are:
 
 - 1 column text
 - 2 columns text
-- action button
+- Action button
 - Banner + optional caption
 - 2 columns thumbnails + text
 - image + text (right or left aligned)
-- all the above with inset & background
+- All the above with inset & background
 - calendar + text (right or left aligned)
 
 The boilerplate is used as a starting point for MailChimp templates at [spatie.be](https://spatie.be).
 
 ## Postcardware
 
-You're free to use this package (it's [MIT-licensed](LICENSE.md)), but if it makes it to your production environment we highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
+You're free to use this package (it's [Creative Commons Licensed](LICENSE.md)), but if it makes it to your production environment we highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
 
 Our address is: Spatie, Samberstraat 69D, 2060 Antwerp, Belgium.
 
@@ -36,12 +36,12 @@ The best postcards will get published on the open source page on our website.
 
 ### Upload to MailChimp
 
-- Make a .zip files with `email.html` and all `*.png` files
-- Go to MailChimp's 'Templates' section 
-- Select 'Create template' > 'Code your own' > 'Import zip'
+- Make a .zip file containing `email.html` and all `*.png` files
+- Go to MailChimp's _Templates_ section 
+- Select _Create template_ > _Code your own_ > _Import zip_
 - Upload the .zip and name your template
 
-When creating new Campaigns in MailChimp, you now can select this layout in the 'Template' step under 'Saved templates'.
+When creating new Campaigns in MailChimp, you now can select this layout in the _Template_ step, tab _Saved templates_.
 
 ### Caveats
 
