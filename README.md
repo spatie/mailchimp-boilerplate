@@ -34,6 +34,13 @@ It is used as a starting point for MailChimp templates at [spatie.be](https://sp
 
 ## Changes
 
+### 2.0.0
+
+- Different mc:edit tags for each image width.
+- Adjusted image widths for inset columns
+
+### 1.0.0
+
 - Colors and styling
 - Font-family definition bundled
 - Google Fonts example

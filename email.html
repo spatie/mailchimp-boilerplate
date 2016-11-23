@@ -73,6 +73,7 @@
         /* Force Outlook 2007 and up to provide a "view in browser" message. */
         img {
             -ms-interpolation-mode: bicubic;
+            height: auto;
         }
 
         /* Force IE to smoothly render resized images. */
@@ -90,16 +91,13 @@
             padding-left: 20px;
         }
 
-        .flexibleImage {
-            height: auto;
-        }
-
         .bottomShim {
             padding-bottom: 20px;
         }
 
         .imageContent, .imageContentLast {
             padding-bottom: 20px;
+            text-align: center;
         }
 
         .nestedContainerCell {
@@ -114,7 +112,9 @@
         }
 
         #bodyCell {
+            padding-bottom: 40px;
             padding-top: 40px;
+            background-color: #F0F0F0;
         }
 
         #emailBody {
@@ -152,10 +152,12 @@
 
         .headerCell {
             padding-top: 20px;
+            background-color: #F0F0F0;
         }
 
         .footerCell {
             padding-bottom: 20px;
+            background-color: #F0F0F0;
         }
 
         .headerCell a, .footerCell a {
@@ -292,6 +294,7 @@
                 Make sure you add an inline max-width
                 to those images to prevent them
                 from blowing out.
+                We gave them different classes for each width, because Mailchimp mixes max-widths between different formats.
             */
             img[class="flexibleImage"] {
                 height: auto !important;
@@ -478,7 +481,7 @@
                                                         and the flexibleContainer class.
                                                     -->
                                                     <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                           width="260" class="flexibleContainer">
+                                                           width="270" class="flexibleContainer">
                                                         <tr>
                                                             <td mc:edit="module-text" valign="top" class="textContent">
                                                                 <h2>Left</h2>
@@ -495,7 +498,7 @@
 
                                                     <!-- CONTENT TABLE // -->
                                                     <table align="right" border="0" cellpadding="0" cellspacing="0"
-                                                           width="260" class="flexibleContainer">
+                                                           width="270" class="flexibleContainer">
                                                         <tr>
                                                             <td mc:edit="module-text-2" valign="top"
                                                                 class="textContentLast">
@@ -589,7 +592,7 @@
                                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                         <tr>
                                                             <td valign="top" class="imageContentLast">
-                                                                <img mc:edit="module-image" src="560.png" width="560"
+                                                                <img mc:edit="module-image-560" src="560.png" width="560"
                                                                      class="flexibleImage" style="max-width:560px;"/>
                                                             </td>
                                                         </tr>
@@ -636,12 +639,12 @@
 
                                                     <!-- CONTENT TABLE // -->
                                                     <table align="left" border="0" cellpadding="0" cellspacing="0"
-                                                           width="260" class="flexibleContainer">
+                                                           width="270" class="flexibleContainer">
                                                         <tr>
                                                             <td valign="top" class="imageContent">
-                                                                <img mc:edit="module-image-small" src="260.png"
-                                                                     width="260" class="flexibleImage"
-                                                                     style="max-width:260px;"/>
+                                                                <img mc:edit="module-image-270" src="270.png"
+                                                                     width="270" class="flexibleImage"
+                                                                     style="max-width:270px;"/>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -661,12 +664,12 @@
 
                                                     <!-- CONTENT TABLE // -->
                                                     <table align="right" border="0" cellpadding="0" cellspacing="0"
-                                                           width="260" class="flexibleContainer">
+                                                           width="270" class="flexibleContainer">
                                                         <tr>
                                                             <td valign="top" class="imageContentLast">
-                                                                <img mc:edit="module-image-small-2" src="260.png"
-                                                                     width="260" class="flexibleImage"
-                                                                     style="max-width:260px;"/>
+                                                                <img mc:edit="module-image-270-2" src="270.png"
+                                                                     width="270" class="flexibleImage"
+                                                                     style="max-width:270px;"/>
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -715,7 +718,7 @@
                                                            width="200" class="flexibleContainer">
                                                         <tr>
                                                             <td align="left" valign="top" class="imageContent">
-                                                                <img mc:edit="module-image-small" src="200.png"
+                                                                <img mc:edit="module-image-200" src="200.png"
                                                                      width="200" class="flexibleImage"
                                                                      style="max-width:200px;"/>
                                                             </td>
@@ -778,7 +781,7 @@
                                                            width="200" class="flexibleContainer">
                                                         <tr>
                                                             <td align="left" valign="top" class="imageContent">
-                                                                <img mc:edit="module-image-small" src="200.png"
+                                                                <img mc:edit="module-image-200" src="200.png"
                                                                      width="200" class="flexibleImage"
                                                                      style="max-width:200px;"/>
                                                             </td>
@@ -890,7 +893,7 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="left" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="240"
+                                                                       cellspacing="0" width="250"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
@@ -910,7 +913,7 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="right" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="240"
+                                                                       cellspacing="0" width="250"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td mc:edit="module-text-2" valign="top"
@@ -1036,7 +1039,7 @@
                                                                        width="100%">
                                                                     <tr>
                                                                         <td valign="top" class="imageContent">
-                                                                            <img mc:edit="module-image" src="520.png"
+                                                                            <img mc:edit="module-image-520" src="520.png"
                                                                                  width="520" class="flexibleImage"
                                                                                  style="max-width:520px;"/>
                                                                         </td>
@@ -1093,14 +1096,14 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="left" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="240"
+                                                                       cellspacing="0" width="250"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td valign="top" class="imageContent">
-                                                                            <img mc:edit="module-image-small"
-                                                                                 src="240.png" width="240"
+                                                                            <img mc:edit="module-image-250"
+                                                                                 src="250.png" width="250"
                                                                                  class="flexibleImage"
-                                                                                 style="max-width:240px;"/>
+                                                                                 style="max-width:250px;"/>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -1121,14 +1124,14 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="right" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="240"
+                                                                       cellspacing="0" width="250"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td valign="top" class="imageContentLast">
-                                                                            <img mc:edit="module-image-small-2"
-                                                                                 src="240.png" width="240"
+                                                                            <img mc:edit="module-image-250-2"
+                                                                                 src="250.png" width="250"
                                                                                  class="flexibleImage"
-                                                                                 style="max-width:240px;"/>
+                                                                                 style="max-width:250px;"/>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -1184,15 +1187,15 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="left" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="200"
+                                                                       cellspacing="0" width="180"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td align="left" valign="top"
                                                                             class="imageContent">
-                                                                            <img mc:edit="module-image-small"
-                                                                                 src="200.png" width="200"
+                                                                            <img mc:edit="module-image-180"
+                                                                                 src="180.png" width="180"
                                                                                  class="flexibleImage"
-                                                                                 style="max-width:200px;"/>
+                                                                                 style="max-width:180px;"/>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -1201,7 +1204,7 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="right" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="280"
+                                                                       cellspacing="0" width="320"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
@@ -1255,15 +1258,15 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="right" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="200"
+                                                                       cellspacing="0" width="180"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td align="left" valign="top"
                                                                             class="imageContent">
-                                                                            <img mc:edit="module-image-small"
-                                                                                 src="200.png" width="200"
+                                                                            <img mc:edit="module-image-180"
+                                                                                 src="180.png" width="180"
                                                                                  class="flexibleImage"
-                                                                                 style="max-width:200px;"/>
+                                                                                 style="max-width:180px;"/>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -1272,7 +1275,7 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="left" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="280"
+                                                                       cellspacing="0" width="320"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td mc:edit="module-text" valign="top"
@@ -1326,13 +1329,13 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="left" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="160"
+                                                                       cellspacing="0" width="180"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td align="center" valign="top"
                                                                             class="bottomShim">
                                                                             <table border="0" cellpadding="0"
-                                                                                   cellspacing="0" width="160"
+                                                                                   cellspacing="0" width="180"
                                                                                    class="emailCalendar">
                                                                                 <tr>
                                                                                     <td align="center" valign="top"
@@ -1423,13 +1426,13 @@
 
                                                                 <!-- CONTENT TABLE // -->
                                                                 <table align="right" border="0" cellpadding="0"
-                                                                       cellspacing="0" width="160"
+                                                                       cellspacing="0" width="180"
                                                                        class="flexibleContainer">
                                                                     <tr>
                                                                         <td align="center" valign="top"
                                                                             class="bottomShim">
                                                                             <table border="0" cellpadding="0"
-                                                                                   cellspacing="0" width="160"
+                                                                                   cellspacing="0" width="180"
                                                                                    class="emailCalendar">
                                                                                 <tr>
                                                                                     <td align="center" valign="top"
