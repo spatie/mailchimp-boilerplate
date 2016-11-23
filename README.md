@@ -12,9 +12,13 @@ Modules are:
 - Action button
 - Banner + optional caption
 - 2 columns thumbnails + text
-- image + text (right or left aligned)
+- Image + text column (right or left aligned)
 - All the above with inset & background
-- calendar + text (right or left aligned)
+- Calendar + text (right or left aligned)
+
+<div style="max-height: 500px; overflow-y: scroll;border: solid1px #ccc">
+    <img src="src/preview.png" alt="boilerplate preview">
+</div>
 
 The boilerplate is used as a starting point for MailChimp templates at [spatie.be](https://spatie.be).
 
