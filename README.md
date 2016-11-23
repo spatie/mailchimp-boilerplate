@@ -5,7 +5,9 @@ This MailChimp HTML email boilerplate contains useful repeatable modules with `m
 
 Imported as a MailChimp Template it gives authors the opportunity to create, duplicate and rearrange different sections in a newsletter. 
 
-Modules are:
+Check this [preview](src/preview.png) with all modules.
+
+Modules included:
 
 - 1 column text
 - 2 columns text
@@ -15,8 +17,6 @@ Modules are:
 - Image + text column (right or left aligned)
 - All the above with inset & background
 - Calendar + text (right or left aligned)
-
-Check this [preview][src/preview.png] with all modules.
 
 The boilerplate is used as a starting point for MailChimp templates at [spatie.be](https://spatie.be).
 
