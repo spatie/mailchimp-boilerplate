@@ -1,5 +1,5 @@
 
-## Mailchimp boilerplate with repeatable modules
+# Mailchimp boilerplate with repeatable modules
 
 This MailChimp HTML email boilerplate contains useful repeatable modules with `mc:repeatable` and `mc:edit` attributes. 
 
