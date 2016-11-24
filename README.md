@@ -52,7 +52,7 @@ Compose your email in the _Edit_ step:
 - Change a block type in the dropdown
 - Drag blocks to reorder
 
-[More info here](http://kb.mailchimp.com/templates/basic-and-themes/repeatable-or-variable-content-blocks)
+More info in this [MailChimp KB article](http://kb.mailchimp.com/templates/basic-and-themes/repeatable-or-variable-content-blocks)
 
 ### Caveats
 
