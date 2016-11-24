@@ -52,18 +52,18 @@ When creating new Campaigns in MailChimp, you now can select this layout in the 
 - Caution with importing custom webfonts in Outlook 2013: they tend to break the font stack. Include conditional styles with `!important` to avoid Times New Roman / serif body text.
 
 ```html
-    <!--[if mso 15]>
-    <style type="text/css">
-        h1, h2, h3, h4, h5, h6,
-        .headerCell, .footerCell,
-        .textContent, .textContentLast,
-        .buttonContent,
-        .emailCalendarDay, .emailCalendarMonth {
-            font-family: Arial, sans-serif !important;
-            mso-line-height-rule: exactly;
-        }
-    </style>
-    <![endif]-->
+<!--[if mso 15]>
+<style type="text/css">
+    h1, h2, h3, h4, h5, h6,
+    .headerCell, .footerCell,
+    .textContent, .textContentLast,
+    .buttonContent,
+    .emailCalendarDay, .emailCalendarMonth {
+        font-family: Arial, sans-serif !important;
+        mso-line-height-rule: exactly;
+    }
+</style>
+<![endif]-->
 ```
 
 
