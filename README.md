@@ -1,13 +1,13 @@
 
-# Mailchimp boilerplate with repeatable modules
+# Mailchimp boilerplate with repeatable blocks
 
-This MailChimp HTML email boilerplate contains useful repeatable modules with `mc:repeatable` and `mc:edit` attributes. 
+This MailChimp HTML email boilerplate contains useful repeatable blocks with `mc:repeatable` and `mc:edit` attributes. 
 
 Imported as a MailChimp Template it gives authors the opportunity to create, duplicate and rearrange different sections in a newsletter. 
 
-Check this [sized screenshot](src/preview.png) with all modules.
+Check this [sized screenshot](src/preview.png) with all available blocks.
 
-Modules included:
+Included:
 
 - 1 column text
 - 2 columns text
