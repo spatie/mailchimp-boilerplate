@@ -43,7 +43,16 @@ The best postcards will get published on the open source page on our website.
 - Select _Create template_ > _Code your own_ > _Import zip_
 - Upload the .zip and name your template
 
-When creating new Campaigns in MailChimp, you now can select this layout in the _Template_ step, tab _Saved templates_.
+### Compose campaigns
+
+When creating new Campaigns in MailChimp select this layout in the _Template_ step, tab _Saved templates_.
+
+Compose your email in the _Edit_ step:
+- Hover a content section and duplicate blocks with the *+* at the bottom left
+- Change a block type in the dropdown
+- Drag blocks to reorder
+
+[More info here](http://kb.mailchimp.com/templates/basic-and-themes/repeatable-or-variable-content-blocks)
 
 ### Caveats
 
