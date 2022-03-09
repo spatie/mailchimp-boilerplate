@@ -1,4 +1,7 @@
 
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
+
+
 # Mailchimp boilerplate with repeatable blocks
 
 This MailChimp HTML email boilerplate contains useful repeatable blocks with `mc:repeatable` and `mc:edit` attributes. 
